@@ -4,7 +4,7 @@ from mud.models import User
 # mud serializer
 
 
-class MudSerializer(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = '__all__'

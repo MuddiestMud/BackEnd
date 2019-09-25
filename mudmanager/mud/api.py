@@ -1,6 +1,6 @@
 from mud.models import User
 from rest_framework import viewsets, permissions
-from .serializers import MudSerializer
+from .serializers import UserSerializer
 
 # Client Viewset
 
@@ -10,4 +10,4 @@ class UserViewSet(viewsets.ModelViewSet):
     permission_classes = [
         permissions.AllowAny
     ]
-    serializer_class = MudSerializer
+    serializer_class = UserSerializer
