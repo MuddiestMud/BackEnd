@@ -1,1 +1,1 @@
-web: gunicorn mud:application --log-file -
+web: gunicorn mudmanager:application --log-file -
