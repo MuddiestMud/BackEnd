@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from mud.models import User, Room
+from adventure.models import Player, Room
 
 # mud serializer
 
 
-class UserSerializer(serializers.ModelSerializer):
+class PlayerSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = Player
         fields = '__all__'
 
 
