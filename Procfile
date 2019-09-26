@@ -1,1 +1,1 @@
-web: gunicorn mudmanager.mudmanager.wsgi:application --log-file -
+web: gunicorn mud:application --log-file -
