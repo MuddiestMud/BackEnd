@@ -10,7 +10,7 @@ router.register('init', api.initialize, "initialize")
 router.register('move', api.move, "move")
 router.register('say', api.say, "say")
 
-
+urlpatterns = router.urls
 '''
 urlpatterns = [
     url('init', api.initialize),
@@ -19,5 +19,3 @@ urlpatterns = [
     url('getroom', api.getroom),
     url('getallrooms', api.getallrooms)
 ]
-
-# urlpatterns = router.urls
