@@ -17,6 +17,12 @@ django = "*"
 djangorestframework = "*"
 django-rest-knox = "*"
 requests = "*"
+django-heroku = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+pusher = "*"
+django-cors-headers = "*"
+django-rest-api = "*"
 
 [requires]
 python_version = "3.7"
